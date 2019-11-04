@@ -36,18 +36,14 @@
         var_dump($pedestrianWay);
 
         $bike->setCurrentSpeed(5);
-            echo $bike>getCurrentSpeed();
         var_dump($bike->switchOn());
         $bike->setCurrentSpeed(10);
-            echo $bike>getCurrentSpeed();
-        var_dump($bike->switchichOn());
+        var_dump($bike->switchOn());
 
         $tornado->setCurrentSpeed(5);
-            echo $tornado>getCurrentSpeed();
-        var_dump($tornado->switchichOn());
+        var_dump($tornado->switchOn());
         $tornado->setCurrentSpeed(10);
-            echo $tornado>getCurrentSpeed();
-        var_dump($tornado->switchichOn());
+        var_dump($tornado->switchOn());
         
         
     require_once 'Voiture.php';
